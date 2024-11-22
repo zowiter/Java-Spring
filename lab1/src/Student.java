@@ -12,7 +12,7 @@ public class Student {
         return sum/grades.length;
     }
 
-    public Student(String name, String group, int course, int[] grades) {
+    protected Student(String name, String group, int course, int[] grades) {
         this.name = name;
         this.group = group;
         this.course = course;

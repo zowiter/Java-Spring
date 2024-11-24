@@ -22,7 +22,7 @@ public class Main {
             if(students.get(i).calculateAvg() < (double) 3) {
                 System.out.println("Студент " + students.get(i).getName() + " отчислен!");
                 students.remove(i);
-            } else if(nextCourse < 4) { // Проверка явялется ли курс выпусным (выпускной курс - 4)
+            } else if(nextCourse < 4) { // Проверка явялется ли курс выпускным (выпускной курс - 4)
                 students.get(i).setCourse(nextCourse);
                 System.out.println("Студент " + students.get(i).getName() + " переведен на следующий курс: " + students.get(i).getCourse());
                 i++;

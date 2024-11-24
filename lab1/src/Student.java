@@ -19,35 +19,35 @@ public class Student {
         this.grades = grades;
     }
 
-    protected void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    protected void setGroup(String group) {
+    public void setGroup(String group) {
         this.group = group;
     }
 
-    protected void setCourse(int course) {
+    public void setCourse(int course) {
         this.course = course;
     }
 
-    protected void setGrades(int[] grades) {
+    public void setGrades(int[] grades) {
         this.grades = grades;
     }
 
-    protected String getName() {
+    public String getName() {
         return name;
     }
 
-    protected String getGroup() {
+    public String getGroup() {
         return group;
     }
 
-    protected int getCourse() {
+    public int getCourse() {
         return course;
     }
 
-    protected int[] getGrades() {
+    public int[] getGrades() {
         return grades;
     }
 }
